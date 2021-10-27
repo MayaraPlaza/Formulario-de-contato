@@ -1,0 +1,92 @@
+<!--
+-Desenhando
+-pensar nos requisitos
+- Ajuda a definir as necessidades de
+
+    Dicas:
+
+-Simples e focado
+-Somente dados necessarios
+-Verifique o que te agrada
+
+Exercicios:
+
+Criar um formulario de contato
+
+1. O formulario deverá conter um titulo de nome "Contato". Usar Fieldseat e legend para esta finalidade.
+
+2. O formulario devera conter 3 campos.    
+- Nome (input texto)
+- Email (input email)
+- Mensagem - Textearea 
+
+3. O formulario devera conter o botão enviar.
+
+Regras de acessibilidade, como por exemplo o label para cada campo.
+
+-->
+
+
+<!--
+<form id="contato" action="">
+<fieldset form="contato" name="contato">
+    <br>
+    <legend>Contato:</legend>
+
+    <label for="">Nome:</label>
+    <input type="text" placeholder="Nome completo"><br><br>
+
+    <label for="email">Email:</label>
+<input id="email" type="email" placeholder="Digite seu email"><br><br>
+
+<label for="textarea">Mensagem:<br><br></label>
+<textarea type="textarea" rows="5" cols="25" placeholder="Digite sua mensagem"></textarea><br><br>
+
+
+    <br><br>
+    <button>Enviar</button>
+</form>-->
+
+
+
+<form action="">
+    <fieldset>
+        <legend>Contato</legend>
+
+        <label for="name">Nome:</label><br>
+        <input id="name" type="text" name="name" placeholder="Nome completo">
+        <br>
+        <br>
+
+        <label for="name">Email:</label><br>
+        <input id="email" type="email" name="email" placeholder="email@seudominio.com.br">
+        <br>
+        <br>
+
+
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+        <br>
+        <br>
+
+        <button type="submit"> Enviar
+
+
+        </fieldset>
+</form>
+
+
+<!--
+tudo dentro do form action e fieldset
+
+sempre colocar um label para input
+
+O imput precisa de um "id" que conecta com o "for" do label (mesmo nome)
+colocar "name"
+
+placeholder - escreve a msg dentro da caixa
+
+br - quebra de linha
+
+
+-->
