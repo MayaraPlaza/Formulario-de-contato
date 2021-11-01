@@ -1,5 +1,5 @@
 # Criando Formulario-de-contato
-Formulario de contato - Discover Rocketseat
+Formulario de contato - Exercicio da Discover Rocketseat
 
 Exercicios:
 
